@@ -1,0 +1,142 @@
+li{margin:0;padding: 0;list-style: none}
+ul{margin: 0px;padding: 0}
+body{margin: 0;padding: 0;}
+a{text-decoration: none;}
+a:link{color: #985a8c}
+a:hover{color:#d506ae;}
+#lv{width:100%;height:1000px;background: #fcecfa;opacity:0.9;filter: alpha(opacity=90);position:absolute;z-index: 12;display: none}
+
+#img1{margin: 0px;padding: 0px;width: 1349px;height: 40px;}
+
+#mark{position: relative;width:1349px;height: 75px;background: #fcecfa;}
+#mark #img2{left: 5px;position: absolute;}
+#mark #img3{margin:0px;height:35px;position: absolute;top: 30px;left: 899px}
+#mark input{margin: 0px;padding: 0px;width: 600px;height:33px;border: 1px solid #ccc;left:299px;top: 30px; position: absolute;background: #fcecfa}
+#mark div select{background: transparent;width: 168px;padding: 5px;font-size: 16px;border: 1px solid #ccc;height: 34px;color: gray;text-align: left;letter-spacing: 4px;padding-left: 8px}
+#mark div{top: 30px;left: 140px; width: 139px; height: 34px;overflow: hidden;border-right: 1px solid #ccc; background: url(img/button.jpg) no-repeat right;/* display: block;*/ position: absolute;}
+
+#grad{height: 40px;width: 1349px; background: -moz-linear-gradient( top,#fcecfa,#e8d7e6);background: -webkit-linear-gradient(top,#fcecfa,#e8d7e6);background: -o-linear-gradient(top,#fcecfa,#e8d7e6); position: relative;}
+#grad #span1{font-size: 20px;font-family: STXingkai;float: left;margin-top: 15px;margin-left: 25px;color: #8a4cbf;width: 250px;}
+#grad #span2{color: #985a8c; font-size: 15px;float: left;margin-top: 15px;margin-left: 115px;;width: 110px;cursor:pointer;}
+#grad #span3{color: #985a8c;font-size: 16px;float: left;margin-top: 15px;margin-left: 125px;width: 110px;cursor:pointer;font-family: 方正黑体简体}
+#grad a{margin-left: 50px;margin-top: 10px;float: left;}
+#grad img{position: absolute;width: 65px;height: 40px;left: 1050px;cursor: pointer;}
+
+
+#list{width: 175px;height: 590px;left: 25px; background: url(img/xiala.jpg) no-repeat;position: relative;}
+#list #ul1{margin: 0;padding: 6px;top: 20px;position: absolute;}
+#list #ul1 li{list-style-type: circle;margin-left: 20px;padding: 2px;font-size: 13px;color: black;}
+#list #ul1 li a:link{color:black;}
+#list #ul1 li a:visited{color:blue;}
+#list #ul1 li a:hover{color:#d506ae;}
+#list #ul1 li a:avtive{color:purple;}
+#list #picture{width: 820px;height: 360px;border: 0px solid red;margin-left:180px;top: 9px }
+.big{width: 820px;height: 360px;position: relative;overflow: hidden;}
+.big img{width: 820px;height: 360px}
+.big li{width: 820px;height: 360;position: absolute;top: 0;left: 0; z-index: 0;overflow: hidden;}
+.big .prev{width: 60px; height: 60px; background: url(img/list/jiazaiwan.jpg) no-repeat; position: absolute; top: 130px; 
+left: 10px; cursor: pointer;filter: alpha(opacity=0);opacity: 0;z-index: 3001; }
+.big .next{width: 60px; height: 60px; background: url(img/list/jiazai.jpg) no-repeat ; position: absolute; top: 130px; 
+right: 10px;  cursor: pointer;filter: alpha(opacity=0);opacity: 0;z-index: 3001;}
+
+.small{width: 820px; height: 60px; position: absolute; top: 300px;left: 180px;z-index: 3001; filter: alpha(opacity=0); opacity: 0;}
+
+.small li{width: 164px; height: 60px; float: left;cursor: pointer;filter: alpha(opacity=80); opacity: 0.8;}
+.small img{width:100%;height: 100%;}
+
+
+#list #list_text{border: 0px solid red; position: absolute;list-style-type: none;margin:0px;padding:0px;background: green; top: 400px;left: 180px;width: 1060px;height: 200px}
+#list #list_text #gdiv1{width: 30px;height: 200px;position: absolute;background:#5c0251;right: 0}
+#list #list_text #gdiv2{width: 30px;height: 20px;position: absolute;background: #fc01dd;}
+#list #list_text #gdiv3{width: 1030px;height: 200px;position: absolute;border: 1px solid green;background: #fa9dee;overflow: hidden;}
+#list #list_text #gdiv4{position: absolute;top: 0px;left: 0px;color: white;padding-left: 15px;padding-right: 15px}
+
+#list #ul3{border:0px solid black;width: 240px;height: 330px;position: absolute;left: 1020px;top: 30px}
+#list #ul3 li{height:82.5px;position: relative;}
+#list #ul3 li a{position: absolute;top: 5px;left: 80px;font-size: 22px;cursor: pointer;}
+#list #ul3 li a:link{color: black;}
+#list #ul3 li a:hover{color: #f7d7e2;}
+
+
+#list #ppp img{width: 240px;height: 310px}
+#list #depot{ width: 150px;height: 350px;background: #dbc6dd;position: absolute;left: 1100px;top: -2px;display: none}
+#list #depot li{height: 30px;margin-left: 38px;font-size: 17px;margin-top: 10px;cursor: pointer;}
+#list #spread{position: relative;width: 250px;height: 450px;margin-left: 850px;display: none;margin-top: -360px;z-index: 3002;}
+#list #spread li{position:absolute;float: left;width: 250px;height: 450px;display: none;}
+
+#news{width: 1200px;height: 640px;border: 0px solid green;margin-left:30px;margin-top: 30px;position: relative;overflow: hidden;}
+#news #img_news{position: relative;}
+#news ul li{margin:30px;border:0px solid black;background: #fcecfa/*#e0dddf*/;position: relative;}
+#news ul li a{text-decoration: none;position: absolute;top: 20px;left: 230px;font-size: 25px;color: black;font-family: }
+#news ul li span{position: absolute;left: 230px;top: 80px}
+#news div{position: absolute;bottom: 0px;width: 1198px;margin: 0px;padding: 0px;height: 45px;border: 0px solid #d0cbcf;background: #fcecfa}
+#news div img{margin-left:550px;cursor: pointer;}
+
+#dog{position: relative;width: 1200px;height: 800px;border: 0px solid #707070;margin-left:30px;margin-top: 30px;overflow: hidden}
+#dog #dog_div1{position: relative;background: #f3f3f3; width: 300px;height: 440px;border:1px solid #707070;position: absolute;top: 80px;left: 5px}
+#dog #dog_div1 img{width: 300px;height:250px;}
+#dog #dog_div1 span{position: absolute;background: black;filter: alpha(opacity=80); opacity: 0.8;width: 300px;height: 40px;line-height: 40px;text-align: center; font-size: 21px;left: 0px;top: 210px;color: white}
+#dog #dog_div1 p{margin: 10px;line-height: 24px;font-size: 14px}
+#dog #dog_div1 #prev1{width:60px; height:60px; background: url(img/dog/jiazaiwan.jpg) no-repeat; position: absolute;top: 100px;left: 10px;filter: alpha(opacity=0); opacity: 0;cursor: pointer;}
+#dog #dog_div1 #next1{width:60px; height:60px; background: url(img/dog/jiazai.jpg) no-repeat; position: absolute;top: 100px;left: 230px;filter: alpha(opacity=0); opacity: 0;cursor: pointer;}
+#dog #ul1{border: 0px solid red;width: 910px;height: 440px;position: relative;margin-left: 330px;margin-top: 15px}
+#dog #ul1 li{border: 0px solid red;width: 170px;height: 170px;float: left;margin-left: 20px;margin-right: 20px;margin-bottom: 50px;padding: 0}
+#dog #ul1 li img{width: 100%;height:100%}
+#dog #ul1 li div{text-align: center;line-height: 30px; width: 100%;height: 30px;background:#e7cfe4;bottom: 0px;margin: 0;padding: 0}
+#dog #ul2{border: 0px solid red;width: 1180px;height: 1100px;position: relative;margin-left: 5px;margin-top: 15px;padding-left: 100px;}
+#dog #ul2 li{border: 0px solid red;width: 170px;height: 170px;float: left;margin-left: 20px;margin-right: 20px;margin-bottom: 50px}
+#dog #ul2 li img{width: 100%;height:100%}
+#dog #ul2 li div{text-align: center;line-height: 30px; width:  100%;height: 30px;background:#e7cfe4;bottom: 0px;margin: 0;padding: 0}
+#dog #dog_div2{position: absolute;bottom: 0px;width: 1198px;margin: 0px;padding: 0px;height: 45px;border: 0px solid #d0cbcf;background: #fcecfa}
+#dog #dog_div2 img{margin-left:550px;cursor: pointer;}
+
+
+#cat{position: relative;width: 1200px;height: 800px;border: 0px solid green;margin-left:30px;margin-top: 30px;overflow: hidden;/*display: none*/}
+#cat #cat_div1{background: #f3f3f3;width: 300px;height: 440px;border:1px solid black;position: absolute;top: 80px;left: 5px}
+#cat #ul1{border: 0px solid red;width: 910px;height: 440px;position: relative;margin-left: 330px;margin-top: 15px}
+#cat #ul1 li{border: 1px solid red;width: 180px;height: 180px;float: left;margin: 20px;}
+#cat #ul2{border: 0px solid yellow;width: 1180px;height: 1100px;position: relative;margin-left: 5px;margin-top: 15px;padding-left: 100px;}
+#cat #ul2 li{border: 1px solid gray;width: 180px;height: 180px;float: left;margin: 20px;}
+#cat #cat_div2{position: absolute;bottom: 0px;width: 1198px;margin: 0px;padding: 0px;height: 45px;border: 0px solid #d0cbcf;background: #fcecfa}
+#cat #cat_div2 img{margin-left:550px;cursor: pointer;}
+
+#mouse{position: relative;width: 1200px;height: 870px;border: 0px solid orange;margin-left:30px;margin-top: 30px;}
+#mouse #mouse_div1{overflow: hidden; width: 660px;height: 280px;border:0px solid black;position: relative;top: 15px;left: 25px}
+#mouse #img_mouse_back{position: absolute;width: 400px;height: 300px;left: 800px;top: 70px}
+#mouse #mouse_div2{background: #deccdf; border: 0px solid green;position: absolute;left: 700px;width: 60px;height: 280px;top: 80px}
+#mouse #mouse_div2 img{margin-top: 120px;cursor: pointer;}
+#mouse #mouse_ul1{filter: alpha(opacity=80); opacity: 0.8;background: #f9d1f6; border: 0px solid black;position: relative;margin-left: 760px;margin-top:-270px;overflow: hidden; width: 0px;height: 300px}
+#mouse #mouse_ul1 li{cursor: pointer;; background: #fa9bf2; font-size: 20px;text-align: center; border: 0px solid red;position: absolute; width: 220px;height: 30px;margin: 20px;top: -54px}
+#mouse #mouse_ul3{border: 0px solid black;position: absolute;left: 40px;top: 400px}
+#mouse #mouse_ul3 li{cursor: pointer; border: 0px solid red;width: 180px;height: 180px;margin: 20px;float: left;position: relative;}
+#mouse #mouse_ul3 li img{width: 100%;height: 100%}
+#mouse #mouse_ul3 li span{filter: alpha(opacity=0); opacity: 0;position: absolute; text-align: center;font-size: 20px;color: #9e3a96; line-height: 30px; width: 100%;height: 80px;background:#e7cfe4;bottom: 0px;left: 0px; margin: 0;padding: 0}
+
+#mouse #mouse_div1 ul{width: 12000px; height: 280px;top: 0px;position: absolute;}
+#mouse #mouse_div1 ul li{position: relative; float: left;width: 265px;height: 180px;margin-top: 50px;}
+#mouse #mouse_div1 ul li img{width: 100%;height: 100%}
+#mouse #mouse_ul2{/*display: none;*/ width: 200px;height: 400px;position: relative;margin-top: -300px;margin-left: 1030px;z-index: 1}
+#mouse #mouse_ul2 li{ padding: 3px; color:#a767a2; font-size: 20px; border: 3px solid #fd99f5;position: absolute;float: left;display: none;width: 200px;height: 400px;background: #f7d5f4}
+
+
+#rabbit{/*display: none; */position: relative;width: 1200px;height: 900px;border: 0px solid orange;margin-left:30px;margin-top: 30px;overflow: hidden}
+#rabbit #rabbit_div1{width: 650px;height: 280px;border:1px solid black;position: absolute;top: 80px;left: 25px}
+#rabbit #img_rabbit_back{position: absolute;width: 500px;height: 350px;left: 750px}
+#rabbit #rabbit_div2{border: 1px solid green;position: absolute;left: 700px;width: 60px;height: 280px;top: 80px}
+#rabbit #rabbit_div2 img{margin-top: 120px;cursor: pointer;}
+#rabbit #rabbit_ul1{border: 0px solid black;position: absolute;left: 760px;}
+#rabbit #rabbit_ul1 li{border: 1px solid red;width: 220px;height: 30px;margin: 20px;}
+#rabbit #rabbit_ul2{border: 0px solid black;position: absolute;left: 40px;top: 400px}
+#rabbit #rabbit_ul2 li{border: 1px solid red;width: 180px;height: 180px;margin: 20px;float: left}
+
+
+#link{border-top: 1px solid red;width: 1250px;height: 200px;margin-top: 50px}
+
+
+
+#popup{width: 300px;height: 300px;background:url(img/landing.jpg) no-repeat;z-index: 12;top: 200px;margin-left:500px;float: left;display: none;position: absolute;}
+#popup img{float: right;margin-top: 5px;margin-right: 3px;cursor: pointer;}
+
+#fix{position:fixed; top:100px; right: 0px;width: 60px; height: 420px; background: #f0bbe9;}
+#fix li{cursor: pointer; float: left;border-bottom: 1px solid red;width: 100%;height: 83px;font-size:18px;text-align: center;}
+#chain{position:fixed; bottom:0px; right: 0px;width: 100px; height: 50px; background: #f0bbe9;}

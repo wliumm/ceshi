@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>*宠物物语*</title>
+<link rel="stylesheet" type="text/css" href="miao.css">
+<script type="text/javascript" src="miao.js"></script>
+
+<script type="text/javascript">
+window.onload=function(){
+var oFix=document.getElementById('fix');
+var aFix_li=oFix.getElementsByTagName('li');
+//for(var i=0;i<aFix_li.length;i++){
+
+	aFix_li[0].onclick=function(){
+	document.documentElement.scrollTop='780'
+}
+aFix_li[1].onclick=function(){
+	document.documentElement.scrollTop='1455'
+
+}
+aFix_li[2].onclick=function(){
+	document.documentElement.scrollTop='2290'
+
+}
+aFix_li[3].onclick=function(){
+	document.documentElement.scrollTop='3110'
+
+}
+aFix_li[4].onclick=function(){
+	document.documentElement.scrollTop='4000'
+
+}
+
+
+
+}
+</script>
+
+
+
+</head>
+<body background="img/beijing.jpg">
+<div id='lv'></div>			<!--lv  滤镜 跟老大不是一家``````````````````````-->		
+		<img id='img1' src="img/top.jpg"/>
+		<div id='total'><!-- total  老大 -->
+		<div id='mark'>		<!--mark  logo标志与type文本框与select-->
+			<img  id='img2' src="img/logo.jpg">
+			<input id="text1" type="text"/>
+			<img id='img3' src="img/sousuo.jpg">
+				<div>
+					<select>
+					<option value="全部分类">全部分类</option>
+	 				<option value="狗狗">狗狗</option>
+					<option value="猫咪">猫咪</option>
+					<option value="宠物鼠">宠物鼠</option>
+					<option value="兔子~">兔子~</option>
+					</select>
+				</div>
+		 	
+		</div>
+		<div id='grad'>		<!--grad      渐变部分 文字与a链接-->
+			<span id='span1'>宠物小知识</span>
+			<a href="javascript"  target="_blank">首页</a>
+			<a href="javascript"  target="_blank">汪星人</a>
+			<a href="javascript"  target="_blank">喵星人</a>
+			<a href="javascript"  target="_blank">家园</a>
+			<a href="javascript"  target="_blank">论坛</a>
+			<a href="javascript"  target="_blank">百科</a>
+			<span id='span2'>|您好，请登录~|</span>
+			<span id='span3'>| 宠物小仓库 |</span>
+		</div>
+		<div id='list'>			<!--list    宠物小知识列表-->
+			<ul id='ul1'>		<!--list里面的-->
+				<li><a href="javascript"  target="_blank">如何为泰迪梳毛</a></li>
+				<li><a href="javascript"  target="_blank">如何给萨摩耶犬洗澡</a></li>
+				<li><a href="javascript"  target="_blank">如何给贵宾犬做护理</a></li>
+				<li><a href="javascript"  target="_blank">猫有多少品种</a></li>
+				<li><a href="javascript"  target="_blank">猫咪早上一直叫怎么办</a></li>
+				<li><a href="javascript"  target="_blank">暹罗猫品种介绍、暹罗猫图片</a></li>
+				<li><a href="javascript"  target="_blank">10个治病的食物小偏方</a></li>
+				<li><a href="javascript"  target="_blank">观赏鱼之雪鹦鹉鱼品种图片介绍</a></li>
+				<li><a href="javascript"  target="_blank">被宠物蜘蛛咬了怎么办</a></li>
+				<li><a href="javascript"  target="_blank">笼养鹩哥能活多久</a></li>
+				<li><a href="javascript"  target="_blank">怎么让地图鱼恢复食欲</a></li>
+				<li><a href="javascript"  target="_blank">仓鼠可以同笼吗</a></li>
+				<li><a href="javascript"  target="_blank">关于兔兔</a></li>
+				<li><a href="javascript"  target="_blank">流浪猫都是怎么来的</a></li>
+				<li><a href="javascript"  target="_blank">宠物兔也会挑食吗</a></li>
+				<li><a href="javascript"  target="_blank">刚出生的小兔子</a></li>
+				<li><a href="javascript"  target="_blank">乌龟也会得抑郁症</a></li>
+				<li><a href="javascript"  target="_blank">宠物兔也会挑食吗</a></li>
+			</ul>						
+			<div id='picture' id='picture'>	<!--picture 循环图片-->
+					<ul  class='big'>
+						<div class='prev' ></div>
+						<div class='next'></div>
+
+						<li style='z-index: 1'> <img src="img/list/list1.jpg"/></li>
+						<li ><img src="img/list/list2.jpg"/></li>
+						<li><img src="img/list/list3.jpg"/></li>
+						<li><img src="img/list/list4.jpg"/></li>
+						<li><img src="img/list/list5.jpg"/></li>
+
+					</ul>
+
+					<ul  class='small' style="width:920px;">
+							<li ><img src="img/list/list1.jpg"/></li>
+							<li><img src="img/list/list2.jpg"/></li>
+							<li><img src="img/list/list3.jpg"/></li>
+							<li><img src="img/list/list4.jpg"/></li>
+							<li><img src="img/list/list5.jpg"/></li>
+					</ul>
+					
+
+			</div>			
+			<div id='ppp'>			<!--ppp   打算复制中国宠物右侧的~~-->
+				<ul id='ul3'>
+					<li style="background: url(ppp/1.jpg);"><a href="javascript"  target="_blank">宠物大全</a></li>
+					<li style="background: url(ppp/2.jpg);"><a href="javascript"  target="_blank">宠物饲养</a></li>
+					<li style="background: url(ppp/3.jpg);"><a href="javascript"  target="_blank">宠物训练</a></li>
+					<li style="background: url(ppp/4.jpg);"><a href="javascript"  target="_blank">宠物医疗</a></li>
+					
+				</ul>
+			</div>		
+			<ul id='depot'>		<!--depot 仓库的下拉小列表-->
+				<li>关于狗粮</li>
+				<li>宠物用品</li>
+				<li>猫咪美容</li>
+				<li>小宠环境</li>
+				<li>小宠养护</li>
+				<li>宠物运动</li>
+				<li>猫咪玩具</li>
+				<li>关于猫粮</li>
+			</ul>
+			<ul id='spread'>
+				<li>
+					<a>0000000</a><br/>
+					<a>0000000</a><br/>
+					<a>0000000</a><br/>
+					<a>0000000</a><br/>
+					<a>0000000</a><br/>
+				</li>
+				<li>
+					<a>111111</a><br/>
+					<a>111111</a><br/>
+					<a>111111</a><br/>
+					<a>111111</a><br/>
+					<a>111111</a><br/>
+				</li>
+				<li>
+					<a>2222222</a><br/>
+					<a>2222222</a><br/>
+					<a>2222222</a><br/>
+					<a>2222222</a><br/>
+					<a>2222222</a><br/>
+				</li>
+				<li>
+					<a>3333333</a><br/>
+					<a>3333333</a><br/>
+					<a>3333333</a><br/>
+					<a>3333333</a><br/>
+					<a>3333333</a><br/>
+					<a>3333333</a><br/>
+				</li>
+				<li>
+					<a>4444444444</a><br/>
+					<a>4444444444</a><br/>
+					<a>4444444444</a><br/>
+					<a>4444444444</a><br/>
+					<a>4444444444</a><br/>
+				</li>
+				<li>
+					<a>55555555</a><br/>
+					<a>55555555</a><br/>
+					<a>55555555</a><br/>
+					<a>55555555</a><br/>
+					<a>55555555</a><br/>
+					<a>55555555</a><br/>
+				</li>
+				<li>
+					<a>666666666</a><br/>
+					<a>666666666</a><br/>
+					<a>666666666</a><br/>
+					<a>666666666</a><br/>
+					<a>666666666</a><br/>
+				</li>
+				<li>
+					<a>7777777</a><br/>
+					<a>7777777</a><br/>
+					<a>7777777</a><br/>
+					<a>7777777</a><br/>
+					<a>7777777</a><br/>
+				</li>
+
+			</ul>
+			
+			<div id='list_text'>
+				<div id='gdiv1'>
+					<div id='gdiv2'></div>
+				</div>
+				<div id='gdiv3'>
+					<div id='gdiv4'>
+					<p style="font-size: 22px;margin: 10px;margin-left: 400px">宠物与人类的关系</p>
+					奥地利的研究人员认为宠物主人与宠物之间的关系类似于年轻孩子与父母之间的深层次情感联系。他们检测了“安全的基准效应”，后者是儿童/父母情感纽带的关键元素，在此之前从未检验过狗的主人与宠物之间是否存在这种效应。这种效应是指当涉及与环境发生相互作用时，人类婴儿将他们的看护者看做安全的基准。维也纳兽医大学梅瑟利研究所的丽莎·霍恩（Lisa Horn）博士检测了狗在三种环境下的反应——当主人不在时，当主人沉默时和主人鼓励它们时。
+
+通过操控狗玩具，它们可以赢得食物奖励，根据这项发表在期刊《公共科学图书馆·综合》上的文章这样表示。与主人在身边相比，主人不在场时动物为了食物而努力的热忱相比更少。主人是否鼓励狗狗执行任务或者保持沉默对宠物的动机水平影响并不大。在接下来的实验里，霍恩博士和她的同事将狗的主人替换为一名陌生人。科学家们发现狗狗几乎不与陌生人发生相互作用，且努力获取食物奖励的动力并不比独处时更高。
+
+研究人员总结称主人的存在对动物更加自信的行为方式来说更为重要。“这项研究提供了首批证据表明狗类/主人和儿童/看护者关系之间的‘安全的基准效应’存在相似性。这种令人惊叹的平行性将在狗类和儿童的直接对比性研究中得到进一步的探索。”
+
+霍恩表示：“令我们惊讶的发现之一便是成年狗对待看护者的方式类似于人类儿童。通过直接的对比研究这种行为是如何在狗类中进化的将非常有趣。”在接下来的实验里，霍恩博士和她的同事将狗的主人替换为一名陌生人。科学家们发现狗狗几乎不与陌生人发生相互作用，且努力获取食物奖励的动力并不比独处时更高。
+
+研究人员总结称主人的存在对动物更加自信的行为方式来说更为重要。“这项研究提供了首批证据表明狗类/主人和儿童/看护者关系之间的‘安全的基准效应’存在相似性。这种令人惊叹的平行性将在狗类和儿童的直接对比性研究中得到进一步的探索。”
+
+霍恩表示：“令我们惊讶的发现之一便是成年狗对待看护者的方式类似于人类儿童。通过直接的对比研究这种行为是如何在狗类中进化的将非常有趣。”在接下来的实验里，霍恩博士和她的同事将狗的主人替换为一名陌生人。科学家们发现狗狗几乎不与陌生人发生相互作用，且努力获取食物奖励的动力并不比独处时更高。
+
+研究人员总结称主人的存在对动物更加自信的行为方式来说更为重要。“这项研究提供了首批证据表明狗类/主人和儿童/看护者关系之间的‘安全的基准效应’存在相似性。
+</div>
+				</div>
+			</div>					
+		</div>
+		<div id='news'>										<!--news    -->
+			<img  id='img_news' src="img/news/shou_news.jpg" style="width: 1200px;">
+			<ul >
+				<li >
+					<img src="img/news/dog.jpg">
+					<a href="http://pet.163.com/16/0524/10/BNQVD2CR0042000D.html"  target="_blank">
+					导致狗狗肥胖病的原因有哪些？
+					</a>
+					<span>遗传有些狗只具有先天易肥的倾向，如拉布拉多寻回犬、比高犬、巴色特犬和猎肠犬，都属这一类。</span>
+				</li>				<!-- 直接改背景颜色，不可以用opcity -->
+				<li>
+					<img src="img/news/cat.jpg">
+					<a href="http://pet.163.com/16/1024/10/C44TA83H00427V73.html"  target="_blank">
+					老鼠太嚣张纽约市派出绝育猫迎战
+					</a>
+					<span>对于纽约市的鼠患问题，动保志工提议向这些猫咪们求助，目前，有大约6000名受过诱捕训练的志工，将这些野猫进行处理后，再将它们放回原处压制老鼠。</span>
+				</li>
+				<li>
+					<img src="img/news/ugly.jpg">
+					<a href="http://pet.163.com/16/0309/17/BHO0JTQG0042000D.html"  target="_blank">
+					研究证明丑的动物容易绝迹
+					</a>
+					<span>澳洲梅铎大学野生动物学家佛莱明说：“这种偏见会对动物保护产生潜在的影响，要是忽略这些被认为是丑的动物，将会对生态造成很大的影响。”</span>
+				</li>
+				<li >
+					<img src="img/news/dog.jpg">
+					<a href="http://pet.163.com/16/0524/10/BNQVD2CR0042000D.html"  target="_blank">
+					导致狗狗肥胖病的原因有哪些？
+					</a>
+					<span>遗传有些狗只具有先天易肥的倾向，如拉布拉多寻回犬、比高犬、巴色特犬和猎肠犬，都属这一类。</span>
+				</li>			<!-- 直接改背景颜色，不可以用opcity -->
+				<li>
+					<img src="img/news/cat.jpg">
+					<a href="http://pet.163.com/16/1024/10/C44TA83H00427V73.html"  target="_blank">
+					老鼠太嚣张纽约市派出绝育猫迎战
+					</a>
+					<span>对于纽约市的鼠患问题，动保志工提议向这些猫咪们求助，目前，有大约6000名受过诱捕训练的志工，将这些野猫进行处理后，再将它们放回原处压制老鼠。</span>
+				</li>
+				<li>
+					<img src="img/news/ugly.jpg">
+					<a href="http://pet.163.com/16/0309/17/BHO0JTQG0042000D.html"  target="_blank">
+					研究证明丑的动物容易绝迹
+					</a>
+					<span>澳洲梅铎大学野生动物学家佛莱明说：“这种偏见会对动物保护产生潜在的影响，要是忽略这些被认为是丑的动物，将会对生态造成很大的影响。”</span>
+				</li>
+				<li >
+					<img src="img/news/dog.jpg">
+					<a href="http://pet.163.com/16/0524/10/BNQVD2CR0042000D.html"  target="_blank">
+					导致狗狗肥胖病的原因有哪些？
+					</a>
+					<span>遗传有些狗只具有先天易肥的倾向，如拉布拉多寻回犬、比高犬、巴色特犬和猎肠犬，都属这一类。</span>
+				</li>			<!-- 直接改背景颜色，不可以用opcity -->
+				<li>
+					<img src="img/news/cat.jpg">
+					<a href="http://pet.163.com/16/1024/10/C44TA83H00427V73.html"  target="_blank">
+					老鼠太嚣张纽约市派出绝育猫迎战
+					</a>
+					<span>对于纽约市的鼠患问题，动保志工提议向这些猫咪们求助，目前，有大约6000名受过诱捕训练的志工，将这些野猫进行处理后，再将它们放回原处压制老鼠。</span>
+				</li>
+				<li>
+					<img src="img/news/ugly.jpg">
+					<a href="http://pet.163.com/16/0309/17/BHO0JTQG0042000D.html"  target="_blank">
+					研究证明丑的动物容易绝迹
+					</a>
+					<span>澳洲梅铎大学野生动物学家佛莱明说：“这种偏见会对动物保护产生潜在的影响，要是忽略这些被认为是丑的动物，将会对生态造成很大的影响。”</span>
+				</li>	
+									<!--li们-->
+			</ul>
+			
+			<div><img src="img/news/jiazai.jpg"></div>
+		</div>			
+		<div id='dog'>			<!--dog-->
+			<img  id='img_dog' src="img/dog/shou_dog.jpg" style="width: 1200px;">
+			<div id=dog_div1>
+				<img src="img/dog/dog1.jpg"/>
+				<span> 虽然粉身碎骨，但是义不容辞</span>
+				<p>在巴黎警方对恐怖分子藏身处的突击行动中，一条叫作Diesel的7岁炸弹嗅探犬因公殉职。在它顺着气味搜索时，女恐怖分子冲出来用AK-47开枪，Diesel冲上去，咬住女恐怖分子，她引爆身上的炸弹，自杀身亡，Diesel也被炸成碎片。一名警犬训练员说：“这有点像失去我们一位同事。”</p>
+				<div id='prev1'></div>
+				<div id='next1'></div>
+			</div>
+			<ul id='ul1'>
+				<li>
+					<img src="img/dog/b.jpg" >
+					<div>拉布拉多寻回犬</div>
+				</li>
+				<li>
+					<img src="img/dog/c.jpg" >
+					<div>边境牧羊犬</div>
+				</li>
+				<li>
+					<img src="img/dog/d.jpg" >
+					<div>博美犬</div>
+				</li>
+				<li >
+					<img src="img/dog/a.jpg" >
+					<div>哈士奇</div>
+
+				</li>
+				
+				<li>
+					<img src="img/dog/e.jpg" >
+					<div>贵宾犬</div>
+				</li>
+				<li>
+					<img src="img/dog/f.jpg" >
+					<div>金毛</div>
+				</li>
+				<li>
+					<img src="img/dog/g.jpg" >
+					<div>藏獒</div>
+				</li>
+				<li>
+					<img src="img/dog/h.jpg" >
+					<div>阿拉斯加雪橇犬</div>
+				</li>
+			</ul>
+			<ul id='ul2'>
+				<li>
+					<img src="img/dog/i.jpg" >
+					<div>萨摩耶</div>
+				</li>
+				<li>
+					<img src="img/dog/j.jpg" >
+					<div>泰迪</div>
+				</li>
+				<li>
+					<img src="img/dog/k.jpg" >
+					<div>秋田犬</div>
+				</li>
+				<li>
+					<img src="img/dog/l.jpg" >
+					<div>吉娃娃</div>
+				</li>
+				<li>
+					<img src="img/dog/m.jpg" >
+					<div>比熊犬</div>
+				</li>
+				<li>
+					<img src="img/dog/n.jpg" >
+					<div>茶杯犬</div>
+				</li>
+				<li>
+					<img src="img/dog/o.jpg" >
+					<div>哈士奇</div>
+				</li>
+				<li>
+					<img src="img/dog/p.jpg" >
+					<div>哈士奇</div>
+				</li>
+				<li>
+					<img src="img/dog/q.jpg" >
+					<div>哈士奇</div>
+				</li>
+				<li>
+					<img src="img/dog/r.jpg" >
+					<div>哈士奇</div>
+				</li>
+				<li>
+					<img src="img/dog/s.jpg" >
+					<div>哈士奇</div>
+				</li>
+				<li>
+					<img src="img/dog/t.jpg" >
+					<div>哈士奇</div>
+				</li>
+				<li>
+					<img src="img/dog/u.jpg" >
+					<div>哈士奇</div>
+				</li>
+				<li>
+					<img src="img/dog/v.jpg" >
+					<div>哈士奇</div>
+				</li>
+				<li>
+					<img src="img/dog/w.jpg" >
+					<div>哈士奇</div>
+				</li>
+				<li>
+					<img src="img/dog/x.jpg" >
+					<div>哈士奇</div>
+				</li>
+				<li>
+					<img src="img/dog/y.jpg" >
+					<div>哈士奇</div>
+				</li>
+				
+			</ul>
+			<div id='dog_div2'><img id='dogimg' src="img/news/jiazai.jpg"/></div>
+		</div>
+
+		<div id='cat'>				<!--cat-->	
+			<img  id='img_cat' src="img/cat/shou_cat.jpg" style="width: 1200px;">
+			<div id='cat_div1'></div>
+			<ul id='ul1'>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+			<ul id='ul2'>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+			<div id='cat_div2'><img src="img/news/jiazai.jpg"></div>
+		</div>
+
+	<div id='mouse'>				<!--mouse-->
+		<img  id='img_mouse' src="img/mouse/shou_mouse.jpg" style="width: 1200px;">
+		<div id='mouse_div1'>
+			<ul >
+			<li><img src="img/mouse/mouse1.jpg"></li>
+			<li><img src="img/mouse/mouse2.jpg"></li>
+			<li><img src="img/mouse/mouse3.jpg"></li>
+			
+			<li><img src="img/mouse/mouse4.jpg"></li>
+			<li><img src="img/mouse/mouse5.jpg"></li>
+			</ul>
+			
+		</div>
+		<img id='img_mouse_back' src="img/mouse/mouse_back.jpg" >
+		<div id='mouse_div2'>
+			<img  src="img/mouse/jiazai.jpg">
+		</div>
+		
+		<div id='mouse_div3'>
+			<ul id='mouse_ul1'>
+				<li>宠物鼠的形体特征</li>
+				<li>宠物鼠的主食有哪些</li>
+				<li>宠物鼠的习性如何</li>
+				<li>它们主要有哪几种呢</li>
+				<li>养宠物鼠的好处与坏处</li>
+				<li>如何把他们养的白白胖胖</li>
+			</ul>
+			<ul id='mouse_ul2'>
+				<li>仓鼠有一对不断生长的门牙，三对臼齿，齿型为：1 0 0 3，成交错排列的三棱体。臼齿具齿根，或不具齿根而终生能生长。该科各种类动物基本都属中小型鼠类。体长在5~28厘米之间，体重在30~1000克。体型短粗。尾短，一般不超过身长的一半，部分品种不超过后腿长度的一半，甚至基本看不到。</li>
+				<li>主要食物为植物种子，喜食坚果，亦食植物嫩茎或叶，偶尔也吃小虫。另外还需要充足的水分，仅仅靠吃植物来摄取水分是远远不够的。多数不冬眠，冬天靠储存食物生活。少数品种在天气寒冷情况下会进入不太活跃的准冬眠状态。</li>
+				<li>栖息于林区及林缘灌丛和多低山丘陵的农区，多在树木和灌丛的根际挖洞，或利用梯田埂和天然石缝间穴居。多白天活动，晨昏最活跃，常在地面及倒木上奔跑，亦善爬树，行动敏捷，不时发出刺耳的叫声。以各种坚果、种子、浆果、花、嫩叶为食，亦吃少量成、幼昆虫。</li>
+				<li>在实际生活中，主要以仓鼠为主。仓鼠是仓鼠亚科动物的总称。共七属十八种，主要分布于亚洲，少数分布于欧洲，其中中国有三属八种。除分布在中亚的小仓鼠外，其他种类的仓鼠两颊皆有颊囊，从臼齿侧延伸到肩部</li>
+				<li>一般养宠物的人都是比较有爱心的，养仓鼠能让其更具爱心。陶冶情操。悠闲的生活中有个小仓鼠陪伴能够陶冶情操，丰富生活。学会打理生活。能够照顾好一个仓鼠的人对生活的打理肯定也很好。不过仓鼠会啃咬电线， 如果散养仓鼠，鼠鼠可能会啃咬电线，可能会把鼠鼠电死。电器也有漏电发生火灾的风险。</li>
+				<li>最适宜温度20-28℃，避免阳光直射或直接风吹的地方，但注意通风透气。不要离电脑太近，仓鼠可以听到人类听不到的声音，避免辐射和嘈杂。最简单的方法是把笼子整个放进纸箱内，但要注意透气。不要给他们棉线织成的物品当窝。虽然暖和，但仓鼠会把棉织物品咬开钻到里面睡觉，因此容易造成仓鼠窒息。</li>
+				
+			</ul>
+		</div>
+			<ul id='mouse_ul3'>
+				<li>
+					<img src="img/mouse/1.jpg"/>
+					<span>看我不挑食~胡萝卜被我啃得好开心+_+</span>
+				</li>
+				<li>
+					<img src="img/mouse/2.jpg"/>
+					<span>祈祷~祈祷·我们的明天更美好</span>
+				</li>
+				<li>
+					<img src="img/mouse/3.jpg"/>
+					<span>我吃我吃吃吃</span>
+				</li>
+				<li>
+					<img src="img/mouse/4.jpg"/>
+					<span>看我会吹笛子哦~滴滴滴</span>
+				</li>
+				<li>
+					<img src="img/mouse/5.jpg"/>
+					<span>看什么看 没见过美鼠么</span>
+				</li>
+				<li>
+					<img src="img/mouse/6.jpg"/>
+					<span>哼！不理你了 </span>
+				</li>
+				<li>
+					<img src="img/mouse/7.jpg"/>
+					<span>哇塞！主人又给我买肉肉吃了</span>
+					
+				</li>
+				<li>
+					<img src="img/mouse/8.jpg"/>
+					<span>大白菜~地里黄~跟我一起唱</span>
+				</li>
+				<li>
+					<img src="img/mouse/9.jpg"/>
+					<span>亲一下~木马~以后我们就是一家了</span>
+				</li>
+				<li>
+					<img src="img/mouse/10.jpg"/>
+					<span>离我远点！我要跳啦</span>
+				</li>
+			</ul>
+
+	</div>			
+
+
+	<div id='rabbit'>			<!--rabbit-->
+		<img  id='img_rabbit' src="img/rabbit/shou_rabbit.jpg" style="width: 1200px;">
+		<div id='rabbit_div1'>
+			
+		</div>
+		<img id='img_rabbit_back' src="img/rabbit/rabbit_back.jpg" >
+		<div id=rabbit_div2>
+			<img  src="img/rabbit/jiazai.jpg">
+		</div>
+		
+		
+			<ul id=rabbit_ul1>
+				<li>1</li>
+				<li>2</li>
+				<li>3</li>
+				<li>4</li>
+				<li>5</li>
+				<li>6</li>
+			</ul>
+			<ul id='rabbit_ul2'>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+
+	</div>		
+
+	<div id='link'></div>					<!--link-->		
+</div>
+
+
+
+
+
+
+<div id='popup'>	   	<!--popup `````````````````````````````````````````````-->
+	<img src="img/off.jpg">
+</div>
+
+<ul  id='fix' >
+<li><br/>最新消息</li>
+<li><br/>狗狗的故事</li>
+<li><br/>猫咪的故事</li>
+<li><br/>宠物鼠百科</li>
+<li><br/>兔兔百科</li>
+</ul>
+
+<div id='chain'></div>
+
+
+
+</body>
+<script type="text/javascript" src="miao1.js"></script>
+<script type="text/javascript" src="miao2.js"></script>
+<script type="text/javascript" src="miao3.js"></script>
+<script type="text/javascript" src="miao4.js"></script>
+<script type="text/javascript" src="miao5.js"></script>
+
+</html>
